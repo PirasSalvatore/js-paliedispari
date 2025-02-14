@@ -12,13 +12,14 @@ const userNumber = Number(prompt("scegli un numero tra 1 e 5"))
 
 const pcNumber = Number(generatNumber(1, 5))
 
-// controllo i due numeri
+/* // controllo i due numeri
 console.log(`${userNumber} ${pcNumber} numeri giocati`);
-
+ */
 
 // Sommiamo i due numeri e stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 
 const result = isEvenOrOdd(userNumber, pcNumber)
+
 
 // Dichiariamo chi ha vinto.
 
@@ -27,6 +28,8 @@ if (userChoise === result) {
 } else {
     console.log("mi dispiace hai perso");
 }
+
+
 
 // Function declaration
 
